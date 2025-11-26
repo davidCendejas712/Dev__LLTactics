@@ -2,7 +2,7 @@
 
 ## 1. Project Description
 
-**LLTactics** is a medieval fantasy web game inspired by the autochess model. In it, players compete for victory by strategically buying and upgrading characters and items.
+**LLTactics** is a medieval fantasy web game inspired by the autochess model. In it, players compete for victory by strategically buying and upgrading characters and items. [Video](https://youtu.be/YKqZMBXW_r0)
 
 Matches are played in two alternating phases:
 
