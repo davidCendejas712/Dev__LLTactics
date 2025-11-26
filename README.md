@@ -4,6 +4,8 @@
 
 **LLTactics** is a medieval fantasy web game inspired by the autochess model. In it, players compete for victory by strategically buying and upgrading characters and items. [Video](https://youtu.be/YKqZMBXW_r0)
 
+This is a full-stack Java project that leverages Spring Boot, CSS, and JavaScript to create an interactive multiplayer gaming platform. Using socket-based communication, the application allows users to connect in real-time, play games, and experience seamless interaction between the client and server. The project demonstrates both back-end and front-end development skills, including real-time data handling, user interface design, and integration of modern web technologies.
+
 Matches are played in two alternating phases:
 
 - **Purchase Phase**: Players can spend stars to acquire units and items, refresh the shop, assign items to their units, or remove elements from their inventory (via double click).
