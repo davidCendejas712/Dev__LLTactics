@@ -1,64 +1,57 @@
-
-<img src="src/main/resources/static/img/logo.png" alt="Logo de avión" width="75" style="border: 1px solid black; border-radius: 10px;"/>
+<img src="src/main/resources/static/img/logo.png" alt="Airplane Logo" width="75" style="border: 1px solid black; border-radius: 10px;"/>
 
 # LL Tactics
 
-<code> Repositorio para la asignatura Ingeniería Web </code>
+<code> Repository for the Web Engineering course </code>
 
-## Índice
+## 1. Project Description
 
-1. [Descripción del proyecto](#1-descripción-del-proyecto)
-2. [Cómo se usa](#2-cómo-se-usa)
-3. [Créditos](#3-créditos)
+**LLTactics** is a medieval fantasy web game inspired by the autochess model. In it, players compete for victory by strategically buying and upgrading characters and items.
 
-## 1. Descripción del proyecto
+Matches are played in two alternating phases:
 
-**LLTactics** es un juego web de fantasía medieval inspirado en el modelo autochess. En él, los jugadores compiten por la victoria comprando y mejorando personajes y objetos estratégicamente.
+- **Purchase Phase**: Players can spend stars to acquire units and items, refresh the shop, assign items to their units, or remove elements from their inventory (via double click).
+- **Battle Phase**: Teams automatically fight until only one side has surviving units. The losing player of the round loses health points. The game continues until one of the players reaches zero (or fewer) health points.
 
-Las partidas se desarrollan en dos fases alternas:
+LLTactics features an automatic matchmaking system. Additionally, matches include an integrated chat system so players can communicate in real time, as well as a report button to denounce inappropriate behavior and maintain a healthy community.
 
-- **Fase de compra**: Los jugadores pueden gastar estrellas para adquirir unidades y objetos, refrescar la tienda, asignar objetos a sus unidades o eliminar elementos de su inventario (mediante doble click).
-- **Fase de batalla**: Los equipos se enfrentan de forma automática hasta que solo quedan unidades vivas de un bando. El jugador perdedor de la ronda pierde puntos de vida. El juego continúa hasta que uno de los jugadores alcanza cero (o menos) puntos de vida.
+Players can also access different informational and social views:
 
-LLTactics cuenta con un sistema de matchmaking automático. Además, las partidas cuentan con un sistema de chat integrado para que los jugadores puedan comunicarse en tiempo real, así como un botón de reporte que permite denunciar comportamientos inapropiados y mantener una comunidad saludable.
+- **Item and Hero Gallery**: Shows all heroes (sorted by factions) and items available in the game, along with their stats and detailed descriptions.
+- **Ranking**: Displays the top players on the server, including their most notable statistics. This view is dynamic and allows clicking on each player to access their profile.
+- **Rules**: Clearly summarizes the game rules to help both new and veteran players understand its mechanics.
+- **User Profile**: Shows personalized information such as the player’s favorite faction, most used character, mastery points, and win/loss percentages.
 
-Los jugadores también pueden acceder a diferentes vistas informativas y sociales:
+Administrators have exclusive views and tools for managing the game environment:
 
-- **Galería de objetos y héroes**: Muestra todos los héroes (ordenados por facciones) y objetos disponibles en el juego, junto con sus estadísticas y descripciones detalladas.
-- **Ranking**: Presenta a los mejores jugadores del servidor, incluyendo sus estadísticas más destacadas. Esta vista es dinámica y permite hacer clic en cada jugador para acceder a su perfil.
-- **Reglas**: Resume claramente las normas del juego para ayudar a nuevos y veteranos a comprender sus mecánicas.
-- **Perfil de usuario**: Muestra información personalizada como la facción favorita del jugador, su personaje más usado, puntos de maestría, y porcentajes de victorias y derrotas.
-
-Los administradores disponen de vistas y herramientas exclusivas para la gestión del entorno del juego:
-
-- **Gestión de partidas y usuarios**: Permite revisar  partidas en curso o finalizadas, así como banear usuarios en caso de comportamiento indebido y desbanearlos.
-- **Modificación de constantes del juego**: Posibilidad de ajustar parámetros iniciales de las partidas, como economía, vida base u otros factores clave.
-- **Gestión de contenido**: Vista dedicada a añadir, modificar o eliminar héroes y objetos disponibles en el juego, manteniendo el equilibrio.
+- **Match and User Management**: Allows reviewing ongoing or finished matches, banning users in case of misconduct, and unbanning them.
+- **Game Constants Modification**: Ability to adjust initial match parameters such as economy, base health, or other key factors.
+- **Content Management**: A dedicated view to add, modify, or remove heroes and items available in the game, maintaining balance.
 
 
 
-## 2. Cómo se usa
+## 2. How to Use
 
-En la pantalla de inicio, se pueden introducir credenciales para acceder como:
+On the home screen, credentials can be entered to log in as:
 
-- **Administrador de prueba**:
+- **Test Administrator**:
 
-Usuario: <code>a</code>
+User: <code>a</code>
 
-Contraseña: <code>aa</code>
+Password: <code>aa</code>
 
-- **Usuario de prueba**:
+- **Test User**:
 
-Usuario: <code>b</code>
+User: <code>b</code>
 
-Contraseña: <code>aa</code>
+Password: <code>aa</code>
 
-**Nota** - No hemos podido realizar los tests relacionados con la partida debido a que karate no soporta dos drivers simultáneamente. Aún así, hemos realizado tests externos para toda la demás funcionalidad.
+**Note** - We were unable to perform match-related tests because Karate does not support two drivers simultaneously. Nevertheless, we conducted external tests for all other functionality.
 
 
-## 3. Créditos
+## 3. Credits
 
-**DESARROLLADORES**
+**DEVELOPERS**
 
 - Samuel Carrillo
 - David Cendejas
@@ -66,8 +59,8 @@ Contraseña: <code>aa</code>
 - Iván Toribio
 - Javier Martín
 
-**ARTE**
-- Las imágenes de unidades y objetos provienen del juego [Battle for Wesnoth](https://github.com/wesnoth/wesnoth/tree/master), las cuales están licenciadas bajo la GNU General Public License (GPL).
-- El resto de imágenes decorativas han sido generados con ChatGPT y posteriormente adaptados.
-- Las fuentes tipográficas usadas en los títulos se han obtenido desde Google Fonts.
-- Los iconos provienen del set de Bootstrap Icons, bajo licencia MIT.
+**ART**
+- The unit and item images come from the game [Battle for Wesnoth](https://github.com/wesnoth/wesnoth/tree/master), which are licensed under the GNU General Public License (GPL).
+- The remaining decorative images were generated with ChatGPT and later adapted.
+- The fonts used in the titles were obtained from Google Fonts.
+- The icons come from the Bootstrap Icons set, under the MIT license.
